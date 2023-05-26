@@ -772,3 +772,230 @@ psm = 13
 '094135' = 94%
 License number: CJ 094135 
 ____________________________
+
+------------------------------
+|Image name: success_test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: False
+------------------------------
+psm = 6
+'AR' = 55%
+'07' = 92%
+'BOS”' = 70%
+License number: BOS”
+
+psm = 7
+'AR' = 55%
+'07' = 92%
+'BOS”' = 70%
+License number: AR 07 
+
+psm = 8
+'AR' = 55%
+'07' = 92%
+'BOS”' = 70%
+License number: AR 07 
+
+psm = 9
+'AR' = 94%
+'07' = 89%
+'BO' = 85%
+License number: AR 07 BO 
+
+psm = 10
+'AR' = 55%
+'07' = 92%
+'BOS”' = 70%
+License number: AR 07 
+
+psm = 11
+'7' = 93%
+'BOS' = 83%
+License number: 7 BOS 
+
+psm = 12
+'AR' = 96%
+'07' = 96%
+'BOS' = 91%
+License number: AR 07 BOS 
+
+psm = 13
+'AR' = 55%
+'07' = 92%
+'BOS”' = 70%
+License number: AR 07 
+____________________________
+
+------------------------------
+|Image name: success_test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: True
+|	skew_correction: False
+------------------------------
+psm = 6
+'AR' = 52%
+'07' = 92%
+'BOS”' = 79%
+License number: BOS”
+
+psm = 7
+'AR' = 52%
+'07' = 92%
+'BOS”' = 79%
+License number: AR 07 
+
+psm = 8
+'AR' = 52%
+'07' = 92%
+'BOS”' = 79%
+License number: AR 07 
+
+psm = 9
+'AR' = 95%
+'07' = 91%
+'BQ' = 77%
+License number: AR 07 BQ 
+
+psm = 10
+'AR' = 52%
+'07' = 92%
+'BOS”' = 79%
+License number: AR 07 
+
+psm = 11
+'AR' = 95%
+'07' = 95%
+'BOS' = 95%
+License number: AR 07 BOS 
+
+psm = 12
+'AR' = 95%
+'07' = 95%
+'BOS' = 95%
+License number: AR 07 BOS 
+
+psm = 13
+'AR' = 52%
+'07' = 92%
+'BOS”' = 79%
+License number: AR 07 
+____________________________
+
+------------------------------
+|Image name: success_test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: True
+------------------------------
+psm = 6
+'AR' = 67%
+'07' = 91%
+'BOS”' = 77%
+License number: BOS”
+
+psm = 7
+'AR' = 67%
+'07' = 91%
+'BOS”' = 77%
+License number: AR 07 
+
+psm = 8
+'AR' = 67%
+'07' = 91%
+'BOS”' = 77%
+License number: AR 07 
+
+psm = 9
+'AR' = 94%
+'07' = 84%
+'BOS' = 95%
+License number: AR 07 BOS 
+
+psm = 10
+'AR' = 67%
+'07' = 91%
+'BOS”' = 77%
+License number: AR 07 
+
+psm = 11
+'AR' = 95%
+'07' = 94%
+'BOS' = 95%
+License number: AR 07 BOS 
+
+psm = 12
+'AR' = 95%
+'07' = 94%
+'BOS' = 95%
+License number: AR 07 BOS 
+
+psm = 13
+'AR' = 67%
+'07' = 91%
+'BOS”' = 77%
+License number: AR 07 
+____________________________
+
+------------------------------
+|Image name: success_test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: True
+|	skew_correction: True
+------------------------------
+psm = 6
+'AR' = 53%
+'07' = 91%
+'BOS”' = 74%
+License number: BOS”
+
+psm = 7
+'AR' = 53%
+'07' = 91%
+'BOS”' = 74%
+License number: AR 07 
+
+psm = 8
+'AR' = 53%
+'07' = 91%
+'BOS”' = 74%
+License number: AR 07 
+
+psm = 9
+'AR' = 96%
+'07' = 93%
+'BQ' = 81%
+License number: AR 07 BQ 
+
+psm = 10
+'AR' = 53%
+'07' = 91%
+'BOS”' = 74%
+License number: AR 07 
+
+psm = 11
+'AR' = 94%
+'07' = 94%
+'BOS' = 92%
+License number: AR 07 BOS 
+
+psm = 12
+'AR' = 94%
+'07' = 94%
+'BOS' = 92%
+License number: AR 07 BOS 
+
+psm = 13
+'AR' = 53%
+'07' = 91%
+'BOS”' = 74%
+License number: AR 07 
+____________________________
