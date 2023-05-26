@@ -1,0 +1,7 @@
+img/**
+!img/test.jpg
+!img/success_test.jpg
+
+python_tutorial.ipynb
+source_code.py
+.vscode

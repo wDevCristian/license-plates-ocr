@@ -1,0 +1,774 @@
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 94%
+'094135' = 88%
+License number: 094135
+
+psm = 7
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+
+psm = 10
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+
+psm = 11
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+
+psm = 12
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+
+psm = 13
+'CJ' = 94%
+'094135' = 88%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 94%
+'094135' = 87%
+License number: 094135
+
+psm = 7
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 10
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 11
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 12
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 13
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: True
+|	erode: False
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 85%
+'096135' = 95%
+License number: 096135
+
+psm = 7
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 8
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 9
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 10
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 11
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 12
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 13
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+____________________________
+
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: True
+|	erode: False
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 85%
+'096135' = 94%
+License number: 096135
+
+psm = 7
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+
+psm = 8
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+
+psm = 9
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+
+psm = 10
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+
+psm = 11
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+
+psm = 12
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+
+psm = 13
+'CJ' = 85%
+'096135' = 94%
+License number: CJ 096135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: False
+|	erode: True
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 94%
+'0946135' = 83%
+License number: 0946135
+
+psm = 7
+'CJ' = 94%
+'0946135' = 83%
+License number: CJ 0946135 
+
+psm = 8
+'CJ' = 94%
+'0946135' = 83%
+License number: CJ 0946135 
+
+psm = 9
+'LJ' = 87%
+'U9' = 69%
+License number: LJ 
+
+psm = 10
+'CJ' = 94%
+'0946135' = 83%
+License number: CJ 0946135 
+
+psm = 11
+'CJ' = 94%
+'0946135' = 83%
+License number: CJ 0946135 
+
+psm = 12
+'CJ' = 94%
+'0946135' = 83%
+License number: CJ 0946135 
+
+psm = 13
+'CJ' = 94%
+'0946135' = 83%
+License number: CJ 0946135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: True
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 94%
+'094135' = 94%
+License number: 094135
+
+psm = 7
+'CJ' = 94%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 94%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 94%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 10
+'CJ' = 94%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 11
+'pea' = 33%
+'CJ' = 94%
+'09413' = 94%
+License number: CJ 09413 
+
+psm = 12
+'pea' = 33%
+'CJ' = 94%
+'09413' = 94%
+License number: CJ 09413 
+
+psm = 13
+'CJ' = 94%
+'094135' = 94%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: True
+|	erode: True
+|	skew_correction: False
+------------------------------
+psm = 6
+'096135' = 83%
+License number: 096135
+
+psm = 7
+'096135' = 83%
+License number: 096135 
+
+psm = 8
+'096135' = 83%
+License number: 096135 
+
+psm = 9
+'Lt' = 29%
+'U9' = 74%
+License number: 
+
+psm = 10
+'096135' = 83%
+License number: 096135 
+
+psm = 11
+'096135' = 83%
+License number: 096135 
+
+psm = 12
+'096135' = 83%
+License number: 096135 
+
+psm = 13
+'096135' = 83%
+License number: 096135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: True
+|	erode: True
+|	skew_correction: False
+------------------------------
+psm = 6
+'CJ' = 75%
+'096135' = 81%
+License number: 096135
+
+psm = 7
+'CJ' = 75%
+'096135' = 81%
+License number: CJ 096135 
+
+psm = 8
+'CJ' = 75%
+'096135' = 81%
+License number: CJ 096135 
+
+psm = 9
+'CJ' = 75%
+'096135' = 81%
+License number: CJ 096135 
+
+psm = 10
+'CJ' = 75%
+'096135' = 81%
+License number: CJ 096135 
+
+psm = 11
+'CJ' = 88%
+'09613' = 74%
+License number: CJ 09613 
+
+psm = 12
+'CJ' = 88%
+'09613' = 74%
+License number: CJ 09613 
+
+psm = 13
+'CJ' = 75%
+'096135' = 81%
+License number: CJ 096135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ' = 94%
+'094135' = 87%
+License number: 094135
+
+psm = 7
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 10
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 11
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 12
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+
+psm = 13
+'CJ' = 94%
+'094135' = 87%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ' = 94%
+'094135' = 96%
+License number: 094135
+
+psm = 7
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 92%
+'0941' = 91%
+License number: CJ 0941 
+
+psm = 10
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 11
+'094135' = 95%
+License number: 094135 
+
+psm = 12
+'094135' = 95%
+License number: 094135 
+
+psm = 13
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: True
+|	erode: False
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ' = 85%
+'096135' = 95%
+License number: 096135
+
+psm = 7
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 8
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 9
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 10
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 11
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 12
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+
+psm = 13
+'CJ' = 85%
+'096135' = 95%
+License number: CJ 096135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: False
+|	erode: True
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ)' = 68%
+'0946135' = 70%
+License number: 0946135
+
+psm = 7
+'CJ)' = 68%
+'0946135' = 70%
+License number: 0946135 
+
+psm = 8
+'CJ)' = 68%
+'0946135' = 70%
+License number: 0946135 
+
+psm = 9
+'eu' = 31%
+'U9' = 77%
+License number: 
+
+psm = 10
+'CJ)' = 68%
+'0946135' = 70%
+License number: 0946135 
+
+psm = 11
+'CJ' = 85%
+'094135' = 95%
+License number: CJ 094135 
+
+psm = 12
+'CJ' = 85%
+'094135' = 95%
+License number: CJ 094135 
+
+psm = 13
+'CJ)' = 68%
+'0946135' = 70%
+License number: 0946135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: True
+|	erode: False
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ' = 92%
+'094135' = 89%
+License number: 094135
+
+psm = 7
+'CJ' = 92%
+'094135' = 89%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 92%
+'094135' = 89%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 52%
+'0941' = 63%
+License number: CJ 0941 
+
+psm = 10
+'CJ' = 92%
+'094135' = 89%
+License number: CJ 094135 
+
+psm = 11
+'094135' = 96%
+License number: 094135 
+
+psm = 12
+'094135' = 96%
+License number: 094135 
+
+psm = 13
+'CJ' = 92%
+'094135' = 89%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: False
+|	erode: True
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ' = 94%
+'094135' = 96%
+License number: 094135
+
+psm = 7
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 10
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+
+psm = 11
+'J' = 92%
+'094135' = 93%
+License number: J 094135 
+
+psm = 12
+'J' = 92%
+'094135' = 93%
+License number: J 094135 
+
+psm = 13
+'CJ' = 94%
+'094135' = 96%
+License number: CJ 094135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: True
+|	erode: True
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ)' = 43%
+'0946135' = 79%
+License number: 0946135
+
+psm = 7
+'CJ)' = 43%
+'0946135' = 79%
+License number: 0946135 
+
+psm = 8
+'CJ)' = 43%
+'0946135' = 79%
+License number: 0946135 
+
+psm = 9
+'(19' = 69%
+License number: 
+
+psm = 10
+'CJ)' = 43%
+'0946135' = 79%
+License number: 0946135 
+
+psm = 11
+'094135' = 94%
+License number: 094135 
+
+psm = 12
+'094135' = 94%
+License number: 094135 
+
+psm = 13
+'CJ)' = 43%
+'0946135' = 79%
+License number: 0946135 
+____________________________
+
+------------------------------
+|Image name: test.jpg
+|Applied transformations:
+|	img_negate: True
+|	threshold_otsu: True
+|	erode: True
+|	skew_correction: True
+------------------------------
+psm = 6
+'CJ' = 90%
+'094135' = 94%
+License number: 094135
+
+psm = 7
+'CJ' = 90%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 8
+'CJ' = 90%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 9
+'CJ' = 90%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 10
+'CJ' = 90%
+'094135' = 94%
+License number: CJ 094135 
+
+psm = 11
+'CJ' = 86%
+'09413' = 93%
+'J' = 84%
+License number: CJ 09413 J 
+
+psm = 12
+'CJ' = 86%
+'09413' = 93%
+'J' = 84%
+License number: CJ 09413 J 
+
+psm = 13
+'CJ' = 90%
+'094135' = 94%
+License number: CJ 094135 
+____________________________
