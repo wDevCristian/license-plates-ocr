@@ -999,3 +999,59 @@ psm = 13
 'BOS”' = 74%
 License number: AR 07 
 ____________________________
+
+------------------------------
+|Image name: success_test.jpg
+|Applied transformations:
+|	img_negate: False
+|	threshold_otsu: False
+|	erode: False
+|	skew_correction: False
+------------------------------
+psm = 6
+'AR' = 53%
+'07' = 91%
+'BOS”' = 73%
+License number: AR 07 
+
+psm = 7
+'AR' = 53%
+'07' = 91%
+'BOS”' = 73%
+License number: AR 07 
+
+psm = 8
+'AR' = 53%
+'07' = 91%
+'BOS”' = 73%
+License number: AR 07 
+
+psm = 9
+'AR' = 94%
+'07' = 88%
+'BO' = 85%
+License number: AR 07 BO 
+
+psm = 10
+'AR' = 53%
+'07' = 91%
+'BOS”' = 73%
+License number: AR 07 
+
+psm = 11
+'7' = 94%
+'BOS' = 87%
+License number: 7 BOS 
+
+psm = 12
+'AR' = 96%
+'07' = 96%
+'BOS' = 92%
+License number: AR 07 BOS 
+
+psm = 13
+'AR' = 53%
+'07' = 91%
+'BOS”' = 73%
+License number: AR 07 
+____________________________

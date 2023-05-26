@@ -4,6 +4,7 @@ import pytesseract
 from pytesseract import Output
 import imutils
 import cv2
+import re
 # from ctypes import resize
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -51,7 +52,7 @@ def correct_skew(image, delta=1, limit=5):
     return best_angle, corrected
 
 # pytesseract.pytesseract.tesseract_cmd = r'<C:/Program Files/Tesseract-OCR/tesseract.exe>'
-img_path = "img/test.jpg";
+img_path = "img/success_test.jpg";
 img = cv2.imread(img_path, cv2.IMREAD_COLOR)
 
 ### Resize image
@@ -104,10 +105,10 @@ new_image = cv2.bitwise_and(img, img, mask=mask)
 Cropped = gray[topx:bottomx+1, topy:bottomy+1]
 
 
-negate = True
-threshold = True 
-erode = True
-corect_rotation = True
+negate = False
+threshold = False 
+erode = False
+corect_rotation = False
 
 if negate:
     Cropped = cv2.bitwise_not(Cropped);
@@ -125,40 +126,76 @@ if corect_rotation:
     # print("New angle:", angle)
 
 license_number = ""
+conf_ln = 1
+confirmation_license_number = ""
+conf_cln = 1
+div1 = 1; 
+div2 = 1; 
 
-with open("results.txt", "a") as file: 
-    print("Is file writable: ", file.writable())
-    file.write("\n\n------------------------------\n")
-    file.write("|Image name: " + img_path[4:])
-    file.write("\n|Applied transformations:\n" + "|\timg_negate: " + str(negate) + "\n"
-                + "|\tthreshold_otsu: " + str(threshold) + "\n"
-                + "|\terode: " + str(erode) + "\n"
-                + "|\tskew_correction: " + str(corect_rotation)
-                + "\n------------------------------")
+i_param = [6, 12]
+for i in i_param:
+    personal_config = rf"--psm {i}  tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz --oem 3"
+    data = pytesseract.image_to_data(Cropped, config=personal_config, output_type=Output.DICT)  
 
-    for i in range(6, 14):
-        personal_config = rf"--psm {i}  tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz --oem 3"
-        data = pytesseract.image_to_data(
-            Cropped, config=personal_config, output_type=Output.DICT)
+    for elem in range(len(data['text'])):
+        if data['conf'][elem] > 0 and i == 6:
+            div1 = div1 * 100
+            license_number = license_number + data['text'][elem]
+            conf_ln = conf_ln * data['conf'][elem] 
+        if data['conf'][elem] > 0 and i == 12:
+            div2 = div2 * 100
+            confirmation_license_number = confirmation_license_number + data['text'][elem]
+            conf_cln = conf_cln * data['conf'][elem] 
+
+pattern = r'[^a-zA-Z0-9\s]'
+replacement = ''
+license_number = re.sub(pattern, replacement, license_number).upper()
+confirmation_license_number = re.sub(pattern, replacement, license_number).upper()
+is_license_plate = True if re.match(r'^([A-Z]{1,2}[\d]{2,3}[A-Z]{3})|([A-Z]{1,2}[\d]{6})$', license_number) is not None else False
+is_license_plate_second = True if re.match(r'^([A-Z]{1,2}[\d]{2,3}[A-Z]{3})|([A-Z]{1,2}[\d]{6})$', confirmation_license_number) is not None else False
+
+if is_license_plate == is_license_plate_second: 
+    if license_number == confirmation_license_number:
+        print("License plate: ", license_number)
+        print("Conf. rate first: " + str(conf_ln / div1 * 100) + "%")
+        print("Conf. rate second: " + str(conf_cln / div2 * 100) + "%")
+    else: 
+        if conf_ln > conf_cln:
+            print("License plate(6): " + license_number + " | Conf. rate: " + str(conf_ln) + "%")
+        else: 
+            print("License plate(12): " + license_number + " | Conf. rate: " + str(conf_cln) + "%")
+
+
+# with open("results.txt", "a") as file: 
+#     print("Is file writable: ", file.writable())
+#     file.write("\n\n------------------------------\n")
+#     file.write("|Image name: " + img_path[4:])
+#     file.write("\n|Applied transformations:\n" + "|\timg_negate: " + str(negate) + "\n"
+#                 + "|\tthreshold_otsu: " + str(threshold) + "\n"
+#                 + "|\terode: " + str(erode) + "\n"
+#                 + "|\tskew_correction: " + str(corect_rotation)
+#                 + "\n------------------------------")
+
+#     for i in range(6, 14):
+#         personal_config = rf"--psm {i}  tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz --oem 3"
+#         data = pytesseract.image_to_data(
+#             Cropped, config=personal_config, output_type=Output.DICT)
         
-        output_string = "\npsm = " + str(i);
-        file.write(output_string)
-        for elem in range(len(data['text'])):
-            if data['conf'][elem] > 0:
-                output_string = "\n'" + data['text'][elem] + "' = " + str(data['conf'][elem]) + "%"
-                file.write(output_string)
-                if data['text'][elem].isupper() and data['text'][elem].isalpha() or data['text'][elem].isnumeric(): 
-                    license_number = license_number + data['text'][elem] + " "
+#         output_string = "\npsm = " + str(i);
+#         file.write(output_string)
+#         for elem in range(len(data['text'])):
+#             if data['conf'][elem] > 0:
+#                 output_string = "\n'" + data['text'][elem] + "' = " + str(data['conf'][elem]) + "%"
+#                 file.write(output_string)
+#                 if data['text'][elem].isupper() and data['text'][elem].isalpha() or data['text'][elem].isnumeric(): 
+#                     license_number = license_number + data['text'][elem]
 
-                if i == 6: 
-                    license_number = data['text'][elem] if len(data['text'][elem]) >= 2 else ""
+#         file.write("\nLicense number: " + license_number)
+#         license_number = ""
+#         file.write("\n") 
 
-        file.write("\nLicense number: " + license_number)
-        license_number = ""
-        file.write("\n") 
-
-    file.write("____________________________")
-file.close();
+#     file.write("____________________________")
+# file.close();
 
 # cv2.imshow('originam image', img)
 # cv2.imshow('cropped image', Cropped)
