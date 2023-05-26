@@ -52,7 +52,7 @@ def correct_skew(image, delta=1, limit=5):
     return best_angle, corrected
 
 # pytesseract.pytesseract.tesseract_cmd = r'<C:/Program Files/Tesseract-OCR/tesseract.exe>'
-img_path = "img/success_test.jpg";
+img_path = "img/test.jpg";
 img = cv2.imread(img_path, cv2.IMREAD_COLOR)
 
 ### Resize image
@@ -105,9 +105,9 @@ new_image = cv2.bitwise_and(img, img, mask=mask)
 Cropped = gray[topx:bottomx+1, topy:bottomy+1]
 
 
-negate = False
+negate = True
 threshold = False 
-erode = False
+erode = True
 corect_rotation = False
 
 if negate:
@@ -164,4 +164,5 @@ if is_license_plate == is_license_plate_second:
             print("License plate(6): " + license_number + " | Conf. rate: " + str(conf_ln) + "%")
         else: 
             print("License plate(12): " + license_number + " | Conf. rate: " + str(conf_cln) + "%")
-
+else: 
+    print("Nu a fost identificat nici un numar: \n" + license_number + "\n" + confirmation_license_number)
